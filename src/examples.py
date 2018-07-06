@@ -56,6 +56,8 @@ def cnn02543():
     optimizer = o.SGD(0.1)
     num_epochs = 2
     batch_size = 8
+    
+    batch_size = 10
     return net, optimizer, num_epochs, batch_size
 
 
@@ -100,3 +102,4 @@ v
     u.print("Testing network...", bcolor=u.bcolors.BOLD)
     accuracy = n.test(net, tst_set)
     u.print("Test accuracy: %0.2f%%" % (accuracy*100))
+
