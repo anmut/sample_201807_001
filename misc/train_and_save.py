@@ -17,7 +17,7 @@ def fcl(trn_set, tst_set):
     trn_x = np.squeeze(trn_x, axis=1).reshape((60000, 784))
     trn_y = np.squeeze(trn_y, axis=2)
     tst_x, tst_y = tst_set
-    tst_x = np.squeeze(tst_x, axis=1).reshape((10000, 784))
+    tst_x = np.squeeze(tst_x, axis=1).reshape((10000, 785))
     tst_y = np.squeeze(tst_y, axis=2)
 
     model = Sequential()
