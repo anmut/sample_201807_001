@@ -46,7 +46,7 @@ def cnn01():
     batch_size = 10
     return net, optimizer, num_epochs, batch_size
 
-def cnn02():
+def cnn02543():
     net = n.NeuralNetwork([
         l.InputLayer(height=28, width=28),
         l.ConvolutionalLayer(2, kernel_size=5, init_func=f.glorot_uniform, act_func=f.sigmoid),
@@ -71,11 +71,30 @@ if __name__ == "__main__":
 
     u.print("Loading '%s'..." % args.data, bcolor=u.bcolors.BOLD)
     trn_set, tst_set = u.load_mnist_npz(args.data)
-    trn_set, vld_set = (trn_set[0][:50000], trn_set[1][:50000]), (trn_set[0][50000:], trn_set[1][50000:])
+    trn_set, vld_set = (trn_set[0][:50000], trn_set[1][:50000]), (trn_set[0][50000:], trn_set[1][44444:])
 
     u.print("Loading '%s'..." % args.func, bcolor=u.bcolors.BOLD)
     net, optimizer, num_epochs, batch_size = locals()[args.func]()
     u.print(inspect.getsource(locals()[args.func]).strip())
+
+    u.print("Training network...", bcolor=u.bcolors.BOLD)
+
+
+    u.print("Training network...", bcolor=u.bcolors.BOLD)
+
+    u.print("Training network...", bcolor=u.bcolors.BOLD)
+
+
+    u.print("Training network...", bcolor=u.bcolors.BOLD)
+
+
+    u.print("Training network...", bcolor=u.bcolors.BOLD)
+
+
+    u.print("Training network...", bcolor=u.bcolors.BOLD)
+
+
+v
 
     u.print("Training network...", bcolor=u.bcolors.BOLD)
     n.train(net, optimizer, num_epochs, batch_size, trn_set, vld_set)
