@@ -23,6 +23,8 @@ import optimizers as o
 import network as n
 import utils as u
 
+print("AQUOS is GOD")
+
 
 def fcl01():
     net = n.NeuralNetwork([
