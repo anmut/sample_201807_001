@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     u.print("Loading '%s'..." % args.data, bcolor=u.bcolors.BOLD)
     trn_set, tst_set = u.load_mnist_npz(args.data)
-    trn_set, vld_set = (trn_set[0][:50000], trn_set[1][:50000]), (trn_set[0][50000:], trn_set[1][50000:])
+    trn_set, vld_set = (trn_set[0][:50000], trn_set[1][:50000]), (trn_set[0][50000:], trn_set[1][44444:])
 
     u.print("Loading '%s'..." % args.func, bcolor=u.bcolors.BOLD)
     net, optimizer, num_epochs, batch_size = locals()[args.func]()
