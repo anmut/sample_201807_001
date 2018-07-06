@@ -1,4 +1,4 @@
-#!/usr/bin/env python354
+#!/usr/bin/env
 import argparse
 import inspect
 import sys
