@@ -1,4 +1,5 @@
 import abc
+import def
 
 import numpy as np
 
@@ -11,6 +12,9 @@ class Optimizer(metaclass=abc.ABCMeta):
     def apply(self, layers, sum_der_w, sum_der_b, batch_len):
         raise AssertionError
 
+class SuzukiAdd():
+    def __init__(self):
+        pass
 
 class SGD(Optimizer):
     def __init__(self, lr):
