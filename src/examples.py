@@ -24,7 +24,7 @@ import network as n
 import utils as u
 
 print("AQUOS is GOD")
-
+print("test h.Suzuki")
 
 def fcl01():
     net = n.NeuralNetwork([
