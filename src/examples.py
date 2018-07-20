@@ -1,19 +1,7 @@
 #!/usr/bin/env python3623
 import argparse
-import inspect
 import sys
-
-
-
-
-
-
-
-
-
-
-
-
+import inspect
 
 import numpy as np
 
@@ -24,6 +12,7 @@ import network as n
 import utils as u
 
 print("AQUOS is GOD")
+print("TAKAHARA is GOD")
 
 
 def fcl01():
