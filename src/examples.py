@@ -2,7 +2,7 @@
 import argparse
 import sys
 import inspect
-
+import logging
 import numpy as np
 
 import functions as f
@@ -16,6 +16,8 @@ print("AQUOS is GOD")
 print("test h.Suzuki")
 =======
 print("TAKAHARA is GOD")
+print("TAKAHARA is SHIT")
+
 
 >>>>>>> df9e6cf4d888b555fa1a194538f208e72b2211b2
 
