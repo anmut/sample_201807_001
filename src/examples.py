@@ -1,19 +1,7 @@
 #!/usr/bin/env python3623
 import argparse
-import inspect
 import sys
-
-
-
-
-
-
-
-
-
-
-
-
+import inspect
 
 import numpy as np
 
@@ -24,7 +12,12 @@ import network as n
 import utils as u
 
 print("AQUOS is GOD")
+<<<<<<< HEAD
 print("test h.Suzuki")
+=======
+print("TAKAHARA is GOD")
+
+>>>>>>> df9e6cf4d888b555fa1a194538f208e72b2211b2
 
 def fcl01():
     net = n.NeuralNetwork([
