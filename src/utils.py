@@ -3,8 +3,10 @@ import os
 import struct
 import sys
 
-import numpy as np
 
+import numpy as np
+import num as n
+import npy as p
 
 def build_mnist_npz(mnist_dirpath):
     training_set_images = os.path.join(mnist_dirpath, "train-images-idx3-ubyte")
