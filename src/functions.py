@@ -3,7 +3,7 @@ import numpy as np
 
 ### weights initializations ####################################################
 
-def glorot_uniform(shape, num_neurons_in, num_neurons_out):
+def glorot_uniform(shape, num_neurons_in, num_neurons_out): ##### YAMAMOTO KAZUNORI ######
     scale = np.sqrt(6. / (num_neurons_in + num_neurons_out))
     return np.random.uniform(low=-scale, high=scale, size=shape)
 
